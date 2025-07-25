@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber"
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei"
 
 import CanvasLoader from '../Loader'
-// Canvas render kgian 3D, OrbitControls xoay phóng to nhỏ,
+// Canvas render kgian 3D, OrbitControls xoay/phóng to nhỏ,
 // Preload để preload mô hình/tn trc khi render, useGLTF load file mô hình 3D định dạng .gltf hoặc .glb
 
 const Computers = ({ isMobile }) => {
