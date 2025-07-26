@@ -19,19 +19,19 @@ export const textVariant = (delay) => {
 export const fadeIn = (direction, type, delay, duration) => {
   return {
     hidden: {
-      x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
-      y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
-      opacity: 0,
+      x: direction === "left" ? 100 : direction === "right" ? -100 : 0, // tùy chọn left hay right mà dịch vị trí sang bên đó
+      y: direction === "up" ? 100 : direction === "down" ? -100 : 0,    // tùy chọn up hay down mà dịch vị trí sang bên đó
+      opacity: 0, // ban đầu ẩn
     },
     show: {
-      x: 0,
+      x: 0,   // về lại vị trí
       y: 0,
-      opacity: 1,
+      opacity: 1, // hiện ra đầy đủ
       transition: {
-        type: type,
-        delay: delay,
-        duration: duration,
-        ease: "easeOut",
+        type: type,   // kiểu chuyển động: "spring" hoặc "tween"
+        delay: delay, // trễ bao nhiêu giây
+        duration: duration,  // kéo dài bao nhiêu giây
+        ease: "easeOut", // dạng easing (giảm dần tốc độ)
       },
     },
   };

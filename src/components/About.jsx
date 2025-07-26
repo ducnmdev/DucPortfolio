@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tilt } from 'react-tilt'
+import { Tilt } from 'react-tilt' // tạo hiệu ứng "nghiêng nghiêng 3D" khi hover vào các thẻ như card
 import { motion } from 'framer-motion'
 
 import { styles } from '../styles'
@@ -16,7 +16,7 @@ const ServiceCard = ({ index, title, icon }) => {
       >
         <div
           option={{
-            max: 45,
+            max: 45,    // độ nghiêng tối đa max: 45
             scale: 1,
             speed: 450
           }}

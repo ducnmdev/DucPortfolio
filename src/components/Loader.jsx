@@ -1,10 +1,10 @@
 import { Html, useProgress } from '@react-three/drei'
 
 const Loader = () => {
-  const { progress } = useProgress()
+  const { progress } = useProgress() // hiện số %
 
   return (
-    <Html>
+    <Html>         {/* giúp hiển thị UI bình thường trong scene 3D */}
       <span className='canvas-load'></span>
       <p style={{
         fontSize: 14,
