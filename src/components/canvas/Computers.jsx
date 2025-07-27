@@ -65,7 +65,9 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop='demand' // chỉ update scene khi cần (khi người dùng dịch cam hoặc có j đó thay đổi)
       shadows
-      camera={{ position: [20, 3, 5], fov: 25 }}  //set up camera x,y,z và độ rộng của tầm nhìn
+      camera={{           //set up camera x,y,z và độ rộng của tầm nhìn
+        position: [20, 3, 5], 
+        fov: 25 }} 
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>   {/*  Đợi cho đến khi mô hình 3D load xong, Hiển thị component loading trong khi chờ. */}

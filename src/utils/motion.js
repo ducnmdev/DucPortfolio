@@ -28,7 +28,7 @@ export const fadeIn = (direction, type, delay, duration) => {
       y: 0,
       opacity: 1, // hiện ra đầy đủ
       transition: {
-        type: type,   // kiểu chuyển động: "spring" hoặc "tween"
+        type: type,   // kiểu chuyển động: "spring" hoặc "tween" spring: mượt, tween: hơi kiểu lò xo nảy
         delay: delay, // trễ bao nhiêu giây
         duration: duration,  // kéo dài bao nhiêu giây
         ease: "easeOut", // dạng easing (giảm dần tốc độ)

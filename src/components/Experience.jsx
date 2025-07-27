@@ -1,7 +1,7 @@
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
-import { motion } from "framer-motion"
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component' // VT bao toàn bộ VTE, VTE đại diện cho từng cột mốc
+import { motion } from "framer-motion" // để dùng animation
 
-import 'react-vertical-timeline-component/style.min.css'
+import 'react-vertical-timeline-component/style.min.css' // QUAN TRỌNG: tự vẽ cột trắng, responsive, cột mốc hiển thị trái phải...
 
 import { styles } from "../styles"
 import { experiences } from "../constants"
@@ -10,11 +10,11 @@ import { textVariant } from "../utils/motion"
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    contentStyle={{ background: '#1d1836', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid #232631' }}
+    contentStyle={{ background: '#1d1836', color: '#fff' }}    // màu nền và chữ
+    contentArrowStyle={{ borderRight: '7px solid #232631' }}   // mũi tên của box
     date={experience.date}
-    iconStyle={{ background: experience.iconBg }}
-    icon={
+    iconStyle={{ background: experience.iconBg }}              // nền icon
+    icon={                                                     // hiển thị icon: hình ảnh biểu tượng cho công ty
       <div className='flex justify-center items-center w-full h-full'>
         <img
           src={experience.icon}
