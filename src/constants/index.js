@@ -160,7 +160,7 @@ const projects = [
       },
     ],
     image: kusz,
-    source_code_link: "https://github.com/ducnm168/Motorbike-Shop",
+    source_code_link: "https://github.com/ducnmdev/Motorbike-Shop",
   },
   {
     name: "Fahasa clone",
@@ -181,7 +181,7 @@ const projects = [
       },
     ],
     image: kiana,
-    source_code_link: "https://github.com/ducnm168/kiana-ecommerce",
+    source_code_link: "https://github.com/ducnmdev/kiana-ecommerce",
   },
   {
     name: "Mobile Store",
@@ -202,7 +202,7 @@ const projects = [
       },
     ],
     image: mbstore,
-    source_code_link: "https://github.com/ducnm168/Mobile-Shop",
+    source_code_link: "https://github.com/ducnmdev/Mobile-Shop",
   },
 ];
 
