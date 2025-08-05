@@ -19,7 +19,7 @@ import {
   freelancer,
   kiana,
   kusz,
-  mbstore,
+  chatapp,
   threejs,
 } from "../assets";
 
@@ -184,25 +184,25 @@ const projects = [
     source_code_link: "https://github.com/ducnmdev/kiana-ecommerce",
   },
   {
-    name: "Mobile Store",
+    name: "Chat App",
     description:
-      "A mobile phone shop web app offering product listings, details, and a simple cart and checkout flow.",
+      "A real-time chat application that allows users to communicate in channels, send direct messages, and manage their profiles.",
     tags: [
       {
-        name: "php",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mysql",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "socket.io",
         color: "pink-text-gradient",
       },
     ],
-    image: mbstore,
-    source_code_link: "https://github.com/ducnmdev/Mobile-Shop",
+    image: chatapp,
+    source_code_link: "https://github.com/ducnmdev/Chat-App",
   },
 ];
 

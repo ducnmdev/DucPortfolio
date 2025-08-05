@@ -27,7 +27,7 @@ import freelancer from "./company/freelancer.png";
 
 import kusz from "./kusz.png"
 import kiana from "./kiana.png"
-import mbstore from "./mbstore.png"
+import chatapp from "./chatapp.png"
 
 export {
   logo,
@@ -55,5 +55,5 @@ export {
   freelancer,
   kusz,
   kiana,
-  mbstore
+  chatapp
 };
